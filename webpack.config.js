@@ -5,7 +5,7 @@ var copyWebPackPlugin = require('copy-webpack-plugin');
 module.exports = {
 	watch: true,
 	entry: {
-		app: './assets/app.js',
+		app: './assets/app/app.js',
 		vendor: [
 			'vue',
 			'vue-router',
@@ -29,18 +29,14 @@ module.exports = {
 						// other preprocessors should work out of the box, no loader config like this necessary.
 						'scss': 'vue-style-loader!css-loader!sass-loader',
 						'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
-					},
-					// other vue-loader options go here
-					transformToRequire: {
-						image: 'xlink:href'
 					}
 				}
 			},
-			// {
-			// 	test: /\.js$/,
-			// 	loader: 'babel-loader',
-			// 	exclude: /node_modules/,
-			// },
+			{
+				test: /\.js$/,
+				loader: 'babel-loader',
+				exclude: /node_modules/,
+			},
 			{
 				test: /\.(png|jpg|gif)$/,
 				loader: 'file-loader',

@@ -20,7 +20,7 @@ module.exports = class Routes
 		resp.end();
 	}
 	_routeLoginGet(req, resp) {
-		let file = fs.readFileSync('C:\\_neard\\www\\mio\\playing-vuejs_node_mongo\\views\\viewTest.html');
+		let file = fs.readFileSync('C:\\_neard\\www\\mio\\playing-vuejs_node_mongo\\views\\app.html');
 
 		resp.writeHead(200, {
 			'Content-Type': 'text/html'
