@@ -1,8 +1,13 @@
-const http = require('http');
-const Routes = require('./routes.js');
+const express = require('express');
+const path = require('path');
+const app = express();
 
-const routes = new Routes();
+app.use('/static', express.static(path.join(__dirname, '/../assets')));
 
-const server = http.createServer((req, resp) => {
-	routes.processRoutes(req, resp);
-}).listen(8080);
+app.get('/', function(req, res) {
+	res.sendFile(path.join(__dirname + '/../views/app.html'));
+});
+
+app.listen(8080, function() {
+	console.log('listening on 8080');
+});
