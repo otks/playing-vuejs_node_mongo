@@ -1,3 +1,8 @@
+import TextField from './../../sharedComponents/input/textField.vue';
+
 export default {
-	name: 'Login'
+	name: 'Login',
+	components: {
+		TextField
+	}
 }
