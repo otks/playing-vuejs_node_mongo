@@ -3,25 +3,33 @@
     <v-card class="grey lighten-4 elevation-2">
       <v-card-text>
         <v-text-field
-          name="input-1"
-          label="Label Text"
-          id="testing"
+          name="user"
+          label="Login"
+          :error="loginHasError"
+					:autofocus="true"
+					type="email"
+					v-model="login"
         ></v-text-field>
         <v-text-field
-          name="input-2"
-          label="Label Text"
-          value="Input text"
-          class="input-group--focused"
+          name="password"
+          label="Password"
+					:error="passwordHasError"
+          value=""
+          class=""
+					type="password"
+					v-model="password"
         ></v-text-field>
-        <v-btn
-          :loading="isSendingLogin"
-          @click.native="loader = 'isSendingLogin'"
-          :disabled="isSendingLogin"
-          class="blue-grey white--text"
-        >
-          Enter
-          <v-icon right dark>cloud_upload</v-icon>
-        </v-btn>
+				<div class="Login-buttons">
+					<v-btn
+						:loading="isSendingLogin"
+						@click.native="sendLogin"
+						:disabled="isSendingLogin"
+						class="Login-button--send primary white--text"
+					>
+						Enter
+						<v-icon right dark>cloud_upload</v-icon>
+					</v-btn>
+				</div>
       </v-card-text>
     </v-card>
   </div>

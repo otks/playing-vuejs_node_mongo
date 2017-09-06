@@ -1,8 +1,24 @@
 @import '../../../assets/_scss/color';
 
 .Login {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+
 	.card {
+		margin: auto;
 		max-width: 400px;
 		width: 100%;
 	}
+}
+
+.Login-buttons {
+	align-items:center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.Login-button--send {
+	margin: 0;
 }
