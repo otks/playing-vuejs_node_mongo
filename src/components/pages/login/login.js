@@ -3,28 +3,28 @@ export default {
 	components: {},
 	data () {
 		return {
-			login: '',
-			loginHasError: false,
-			password: '',
-			passwordHasError: false,
+			login: 'super',
+			loginErrorMsg: '',
+			password: '12345',
+			passwordErrorMsg: '',
 			isSendingLogin: false
 		};
 	},
 	methods: {
 		sendLogin () {
 			if (this.login === '') {
-				this.loginHasError = true;
+				this.loginErrorMsg = 'Invalid login.';
 				return;
 			}
 
-			this.loginHasError = false;
+			this.loginErrorMsg = '';
 
 			if (this.password === '') {
-				this.passwordHasError = true;
+				this.passwordErrorMsg = 'Password is empty.';
 				return;
 			}
 
-			this.passwordHasError = false;
+			this.passwordErrorMsg = '';
 
 			this.isSendingLogin = true;
 

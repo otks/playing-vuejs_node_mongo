@@ -1,37 +1,16 @@
 <template>
   <div class="Login">
-    <v-card class="grey lighten-4 elevation-2">
-      <v-card-text>
-        <v-text-field
-          name="user"
-          label="Login"
-          :error="loginHasError"
-					:autofocus="true"
-					type="email"
-					v-model="login"
-        ></v-text-field>
-        <v-text-field
-          name="password"
-          label="Password"
-					:error="passwordHasError"
-          value=""
-          class=""
-					type="password"
-					v-model="password"
-        ></v-text-field>
-				<div class="Login-buttons">
-					<v-btn
-						:loading="isSendingLogin"
-						@click.native="sendLogin"
-						:disabled="isSendingLogin"
-						class="Login-button--send primary white--text"
-					>
-						Enter
-						<v-icon right dark>cloud_upload</v-icon>
-					</v-btn>
-				</div>
-      </v-card-text>
-    </v-card>
+		<mu-card class="Login-card">
+			<mu-card-text>
+				<mu-text-field class="TextField" :errorText="loginErrorMsg" label="Login" hintText="teste@aliensdesign.com.br" type="email" labelFloat/>
+				<mu-text-field class="TextField" :errorText="passwordErrorMsg" label="Senha" type="password" labelFloat/>
+			</mu-card-text>
+			<mu-card-actions class="Login-cardActions">
+				<mu-raised-button label="Entrar" labelPosition="after"  primary @click.native="sendLogin" :disabled="isSendingLogin">
+					<mu-circular-progress :size="20" color="white"/>
+				</mu-raised-button>
+			</mu-card-actions>
+		</mu-card>
   </div>
 </template>
 <script src="./login.js"></script>

@@ -82,39 +82,8 @@ devMiddleware.waitUntilValid(() => {
 	_resolve();
 });
 
-const Database = require('arangojs');
-const db = new Database({
-	url: 'http://vuejs:teste12345@127.0.0.1:8529',
-	databaseName: 'playing_vue'
-});
-
-// Simple routes
-app.post('/loginAuth', (req, res) => {
-	const user = req.params.user;
-	const pass = req.params.password;
-
-	db.query(
-		'FOR user IN Users' +
-		'	FILTER user.login == "' + user + '" && user.password == "' + pass + '"' +
-		'	RETURN user')
-		.then((cursor) => {
-			if (!cursor.hasNext()) {
-				res.send(prepareLoginAuthJSON('Incorrect login', false));
-				return;
-			}
-
-			res.send(prepareLoginAuthJSON('Correct login'), true);
-		}, response => {
-			res.send(prepareLoginAuthJSON('Error db: ' + response.message, false));
-		});
-});
-
-function prepareLoginAuthJSON (msg, isCorrect) {
-	return JSON.stringify({
-		msg: msg,
-		correct: isCorrect
-	});
-}
+const routes = require('./routes');
+routes.routes(app);
 
 var server = app.listen(port);
 
