@@ -7,7 +7,9 @@ export default {
 			loginErrorMsg: '',
 			password: '12345',
 			passwordErrorMsg: '',
-			isSendingLogin: false
+			isSendingLogin: false,
+			errorMsg: '',
+			msgDuration: 2000
 		};
 	},
 	methods: {
@@ -36,10 +38,10 @@ export default {
 				responseType: 'json'
 			}).then(response => {
 				if (!response.body.correct) {
-					console.log(response.body.msg);
-
 					this.isSendingLogin = false;
 
+					this.errorMsg = response.body.msg;
+					this.$refs.snackbar.open();
 					return;
 				}
 

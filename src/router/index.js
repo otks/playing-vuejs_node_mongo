@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Hello from '@/components/Hello';
 import Login from '@/components/pages/login/login.vue';
 import Home from '@/components/pages/home/home.vue';
+import About from '@/components/pages/about/about.vue';
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
 			path: '/home',
 			name: 'home',
 			component: Home
+		},
+		{
+			path: '/about',
+			name: 'about',
+			component: About
 		}
 	]
 });

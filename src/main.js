@@ -2,16 +2,33 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import VueResource from 'vue-resource';
-import MuseUI from 'muse-ui';
-import 'muse-ui/dist/muse-ui.css';
 
-import App from './App';
+import VueMaterial from 'vue-material';
+import 'vue-material/dist/vue-material.css';
+
+import Helpers from './components/plugins/helpers.js';
+
+import App from './App.vue';
 import router from './router';
 
 Vue.config.productionTip = false;
 
 Vue.use(VueResource);
-Vue.use(MuseUI);
+Vue.use(VueMaterial);
+Vue.use(Helpers);
+
+Vue.material.registerTheme('default', {
+	primary: {
+		color: 'green',
+		hue: '800'
+	},
+	accent: {
+		color: 'green',
+		hue: 'A200'
+	},
+	warn: 'orange',
+	background: 'white'
+});
 
 /* eslint-disable no-new */
 new Vue({

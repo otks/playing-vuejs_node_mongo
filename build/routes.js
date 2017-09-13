@@ -37,7 +37,7 @@ module.exports = {
 				if (!err) {
 					if (!cursor.hasNext()) {
 						console.log('erro1');
-						res.status(200).json({ msg: 'Houve um erro no login ou senha', correct: false });
+						res.status(200).json({ msg: 'Login ou senha incorreto', correct: false });
 					} else {
 						console.log('erro2');
 						res.status(200).json({ msg: 'Login feito com sucesso', correct: true });

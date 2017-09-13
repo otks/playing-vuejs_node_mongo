@@ -1,16 +1,25 @@
 <template>
   <div class="Login">
-		<mu-card class="Login-card">
-			<mu-card-text>
-				<mu-text-field class="TextField" :errorText="loginErrorMsg" label="Login" hintText="teste@aliensdesign.com.br" type="email" labelFloat/>
-				<mu-text-field class="TextField" :errorText="passwordErrorMsg" label="Senha" type="password" labelFloat/>
-			</mu-card-text>
-			<mu-card-actions class="Login-cardActions">
-				<mu-raised-button label="Entrar" labelPosition="after"  primary @click.native="sendLogin" :disabled="isSendingLogin">
-					<mu-circular-progress :size="20" color="white"/>
-				</mu-raised-button>
-			</mu-card-actions>
-		</mu-card>
+		<md-card class="Login-card">
+			<md-card-header>
+				<md-input-container>
+					<label>Login</label>
+					<md-input v-model="login" :required="true"></md-input>
+				</md-input-container>
+				<md-input-container md-has-password>
+					<label>Senha</label>
+					<md-input v-model="password" :required="true" type="password"></md-input>
+				</md-input-container>
+			</md-card-header>
+
+			<md-card-actions>
+				<md-button @click.stop="sendLogin" class="md-raised md-primary">Entrar</md-button>
+			</md-card-actions>
+		</md-card>
+
+		<md-snackbar md-position="top center" ref="snackbar" :md-duration="msgDuration">
+			<span>{{ errorMsg }}</span>
+		</md-snackbar>
   </div>
 </template>
 <script src="./login.js"></script>
