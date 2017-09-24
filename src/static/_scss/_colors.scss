@@ -1,0 +1,1908 @@
+@charset "UTF-8";
+
+$black: #000000;
+$navyBlue: #000080;
+$darkBlue: #0000C8;
+$blue: #0000FF;
+$stratos: #000741;
+$swamp: #001B1C;
+$resolutionBlue: #002387;
+$deepFir: #002900;
+$burnham: #002E20;
+$internationalKleinBlue: #002FA7;
+$prussianBlue: #003153;
+$midnightBlue: #003366;
+$smalt: #003399;
+$deepTeal: #003532;
+$cyprus: #003E40;
+$kaitokeGreen: #004620;
+$cobalt: #0047AB;
+$crusoe: #004816;
+$sherpaBlue: #004950;
+$endeavour: #0056A7;
+$camarone: #00581A;
+$scienceBlue: #0066CC;
+$blueRibbon: #0066FF;
+$tropicalRainForest: #00755E;
+$allports: #0076A3;
+$deepCerulean: #007BA7;
+$lochmara: #007EC7;
+$azureRadiance: #007FFF;
+$teal: #008080;
+$bondiBlue: #0095B6;
+$pacificBlue: #009DC4;
+$persianGreen: #00A693;
+$jade: #00A86B;
+$caribbeanGreen: #00CC99;
+$robinsEggBlue: #00CCCC;
+$green: #00FF00;
+$springGreen: #00FF7F;
+$cyanAqua: #00FFFF;
+$blueCharcoal: #010D1A;
+$midnight: #011635;
+$holly: #011D13;
+$daintree: #012731;
+$cardinGreen: #01361C;
+$countyGreen: #01371A;
+$astronautBlue: #013E62;
+$regalBlue: #013F6A;
+$aquaDeep: #014B43;
+$orient: #015E85;
+$blueStone: #016162;
+$funGreen: #016D39;
+$pineGreen: #01796F;
+$blueLagoon: #017987;
+$deepSea: #01826B;
+$greenHaze: #01A368;
+$englishHolly: #022D15;
+$sherwoodGreen: #02402C;
+$congressBlue: #02478E;
+$eveningSea: #024E46;
+$bahamaBlue: #026395;
+$observatory: #02866F;
+$cerulean: #02A4D3;
+$tangaroa: #03163C;
+$greenVogue: #032B52;
+$mosque: #036A6E;
+$midnightMoss: #041004;
+$blackPearl: #041322;
+$blueWhale: #042E4C;
+$zuccini: #044022;
+$tealBlue: #044259;
+$deepCove: #051040;
+$gulfBlue: #051657;
+$veniceBlue: #055989;
+$watercourse: #056F57;
+$catalinaBlue: #062A78;
+$tiber: #063537;
+$gossamer: #069B81;
+$niagara: #06A189;
+$tarawera: #073A50;
+$jaguar: #080110;
+$blackBean: #081910;
+$deepSapphire: #082567;
+$elfGreen: #088370;
+$brightTurquoise: #08E8DE;
+$downriver: #092256;
+$palmGreen: #09230F;
+$madison: #09255D;
+$bottleGreen: #093624;
+$deepSeaGreen: #095859;
+$salem: #097F4B;
+$blackRussian: #0A001C;
+$darkFern: #0A480D;
+$japaneseLaurel: #0A6906;
+$atoll: #0A6F75;
+$codGray: #0B0B0B;
+$marshland: #0B0F08;
+$gordonsGreen: #0B1107;
+$blackForest: #0B1304;
+$sanFelix: #0B6207;
+$malachite: #0BDA51;
+$ebony: #0C0B1D;
+$woodsmoke: #0C0D0F;
+$racingGreen: #0C1911;
+$surfieGreen: #0C7A79;
+$blueChill: #0C8990;
+$blackRock: #0D0332;
+$bunker: #0D1117;
+$aztec: #0D1C19;
+$bush: #0D2E1C;
+$cinder: #0E0E18;
+$firefly: #0E2A30;
+$toreaBay: #0F2D9E;
+$vulcan: #10121D;
+$greenWaterloo: #101405;
+$eden: #105852;
+$arapawa: #110C6C;
+$ultramarine: #120A8F;
+$elephant: #123447;
+$jewel: #126B40;
+$diesel: #130000;
+$asphalt: #130A06;
+$blueZodiac: #13264D;
+$parsley: #134F19;
+$nero: #140600;
+$toryBlue: #1450AA;
+$bunting: #151F4C;
+$denim: #1560BD;
+$genoa: #15736B;
+$mirage: #161928;
+$hunterGreen: #161D10;
+$bigStone: #162A40;
+$celtic: #163222;
+$timberGreen: #16322C;
+$gableGreen: #163531;
+$pineTree: #171F04;
+$chathamsBlue: #175579;
+$deepForestGreen: #182D09;
+$blumine: #18587A;
+$palmLeaf: #19330E;
+$nileBlue: #193751;
+$funBlue: #1959A8;
+$luckyPoint: #1A1A68;
+$mountainMeadow: #1AB385;
+$tolopea: #1B0245;
+$haiti: #1B1035;
+$deepKoamaru: #1B127B;
+$acadia: #1B1404;
+$seaweed: #1B2F11;
+$biscay: #1B3162;
+$matisse: #1B659D;
+$crowshead: #1C1208;
+$rangoonGreen: #1C1E13;
+$persianBlue: #1C39BB;
+$everglade: #1C402E;
+$elm: #1C7C7D;
+$greenPea: #1D6142;
+$creole: #1E0F04;
+$karaka: #1E1609;
+$elPaso: #1E1708;
+$cello: #1E385B;
+$tePapaGreen: #1E433C;
+$dodgerBlue: #1E90FF;
+$easternBlue: #1E9AB0;
+$nightRider: #1F120F;
+$java: #1FC2C2;
+$jacksonsPurple: #20208D;
+$cloudBurst: #202E54;
+$blueDianne: #204852;
+$eternity: #211A0E;
+$deepBlue: #220878;
+$forestGreen: #228B22;
+$mallard: #233418;
+$violet: #240A40;
+$kilamanjaro: #240C02;
+$logCabin: #242A1D;
+$blackOlive: #242E16;
+$greenHouse: #24500F;
+$graphite: #251607;
+$cannonBlack: #251706;
+$portGore: #251F4F;
+$shark: #25272C;
+$greenKelp: #25311C;
+$curiousBlue: #2596D1;
+$paua: #260368;
+$parisM: #26056A;
+$woodBark: #261105;
+$gondola: #261414;
+$steelGray: #262335;
+$ebonyClay: #26283B;
+$bayofMany: #273A81;
+$plantation: #27504B;
+$eucalyptus: #278A5B;
+$oil: #281E15;
+$astronaut: #283A77;
+$mariner: #286ACD;
+$violentViolet: #290C5E;
+$bastille: #292130;
+$zeus: #292319;
+$charade: #292937;
+$jellyBean: #297B9A;
+$jungleGreen: #29AB87;
+$cherryPie: #2A0359;
+$coffeeBean: #2A140E;
+$balticSea: #2A2630;
+$turtleGreen: #2A380B;
+$ceruleanBlue: #2A52BE;
+$sepiaBlack: #2B0202;
+$valhalla: #2B194F;
+$heavyMetal: #2B3228;
+$blueGem: #2C0E8C;
+$revolver: #2C1632;
+$bleachedCedar: #2C2133;
+$lochinvar: #2C8C84;
+$mikado: #2D2510;
+$outerSpace: #2D383A;
+$stTropaz: #2D569B;
+$jacaranda: #2E0329;
+$jackoBean: #2E1905;
+$rangitoto: #2E3222;
+$rhino: #2E3F62;
+$seaGreen: #2E8B57;
+$scooter: #2EBFD4;
+$onion: #2F270E;
+$governorBay: #2F3CB3;
+$sapphire: #2F519E;
+$spectra: #2F5A57;
+$casal: #2F6168;
+$melanzane: #300529;
+$cocoaBrown: #301F1E;
+$woodrush: #302A0F;
+$sanJuan: #304B6A;
+$turquoise: #30D5C8;
+$eclipse: #311C17;
+$pickledBluewood: #314459;
+$azure: #315BA1;
+$calypso: #31728D;
+$paradiso: #317D82;
+$persianIndigo: #32127A;
+$blackcurrant: #32293A;
+$mineShaft: #323232;
+$stromboli: #325D52;
+$bilbao: #327C14;
+$astral: #327DA0;
+$christalle: #33036B;
+$thunder: #33292F;
+$shamrock: #33CC99;
+$tamarind: #341515;
+$mardiGras: #350036;
+$valentino: #350E42;
+$jagger: #350E57;
+$tuna: #353542;
+$chambray: #354E8C;
+$martinique: #363050;
+$tuatara: #363534;
+$waiouru: #363C0D;
+$ming: #36747D;
+$laPalma: #368716;
+$chocolate: #370202;
+$clinker: #371D09;
+$brownTumbleweed: #37290E;
+$birch: #373021;
+$oracle: #377475;
+$blueDiamond: #380474;
+$grape: #381A51;
+$dune: #383533;
+$oxfordBlue: #384555;
+$clover: #384910;
+$limedSpruce: #394851;
+$dell: #396413;
+$toledo: #3A0020;
+$sambuca: #3A2010;
+$jacarta: #3A2A6A;
+$william: #3A686C;
+$killarney: #3A6A47;
+$keppel: #3AB09E;
+$temptress: #3B000B;
+$aubergine: #3B0910;
+$jon: #3B1F1F;
+$treehouse: #3B2820;
+$amazon: #3B7A57;
+$bostonBlue: #3B91B4;
+$windsor: #3C0878;
+$rebel: #3C1206;
+$meteorite: #3C1F76;
+$darkEbony: #3C2005;
+$camouflage: #3C3910;
+$brightGray: #3C4151;
+$capeCod: #3C4443;
+$lunarGreen: #3C493A;
+$bean: #3D0C02;
+$bistre: #3D2B1F;
+$goblin: #3D7D52;
+$kingfisherDaisy: #3E0480;
+$cedar: #3E1C14;
+$englishWalnut: #3E2B23;
+$blackMarlin: #3E2C1C;
+$shipGray: #3E3A44;
+$pelorous: #3EABBF;
+$bronze: #3F2109;
+$cola: #3F2500;
+$madras: #3F3002;
+$minsk: #3F307F;
+$cabbagePont: #3F4C3A;
+$tomThumb: #3F583B;
+$mineralGreen: #3F5D53;
+$puertoRico: #3FC1AA;
+$harlequin: #3FFF00;
+$brownPod: #401801;
+$cork: #40291D;
+$masala: #403B38;
+$thatchGreen: #403D19;
+$fiord: #405169;
+$viridian: #40826D;
+$chateauGreen: #40A860;
+$ripePlum: #410056;
+$paco: #411F10;
+$deepOak: #412010;
+$merlin: #413C37;
+$gunPowder: #414257;
+$eastBay: #414C7D;
+$royalBlue: #4169E1;
+$oceanGreen: #41AA78;
+$burntMaroon: #420303;
+$lisbonBrown: #423921;
+$fadedJade: #427977;
+$scarletGum: #431560;
+$iroko: #433120;
+$armadillo: #433E37;
+$riverBed: #434C59;
+$greenLeaf: #436A0D;
+$barossa: #44012D;
+$moroccoBrown: #441D00;
+$mako: #444954;
+$kelp: #454936;
+$sanMarino: #456CAC;
+$pictonBlue: #45B1E8;
+$loulou: #460B41;
+$craterBrown: #462425;
+$grayAsparagus: #465945;
+$steelBlue: #4682B4;
+$rusticRed: #480404;
+$bulgarianRose: #480607;
+$clairvoyant: #480656;
+$cocoaBean: #481C1C;
+$woodyBrown: #483131;
+$taupe: #483C32;
+$vanCleef: #49170C;
+$brownDerby: #492615;
+$metallicBronze: #49371B;
+$verdunGreen: #495400;
+$blueBayoux: #496679;
+$bismark: #497183;
+$bracken: #4A2A04;
+$deepBronze: #4A3004;
+$mondo: #4A3C30;
+$tundora: #4A4244;
+$gravel: #4A444B;
+$trout: #4A4E5A;
+$pigmentIndigo: #4B0082;
+$nandor: #4B5D52;
+$saddle: #4C3024;
+$abbey: #4C4F56;
+$blackberry: #4D0135;
+$cabSav: #4D0A18;
+$indianTan: #4D1E01;
+$cowboy: #4D282D;
+$lividBrown: #4D282E;
+$rock: #4D3833;
+$punga: #4D3D14;
+$bronzetone: #4D400F;
+$woodland: #4D5328;
+$mahogany: #4E0606;
+$bossanova: #4E2A5A;
+$matterhorn: #4E3B41;
+$bronzeOlive: #4E420C;
+$mulledWine: #4E4562;
+$axolotl: #4E6649;
+$wedgewood: #4E7F9E;
+$shakespeare: #4EABD1;
+$honeyFlower: #4F1C70;
+$daisyBush: #4F2398;
+$indigo: #4F69C6;
+$fernGreen: #4F7942;
+$fruitSalad: #4F9D5D;
+$apple: #4FA83D;
+$mortar: #504351;
+$kashmirBlue: #507096;
+$cuttySark: #507672;
+$emerald: #50C878;
+$emperor: #514649;
+$chaletGreen: #516E3D;
+$como: #517C66;
+$smaltBlue: #51808F;
+$castro: #52001F;
+$maroonOak: #520C17;
+$gigas: #523C94;
+$voodoo: #533455;
+$victoria: #534491;
+$hippieGreen: #53824B;
+$heath: #541012;
+$judgeGray: #544333;
+$fuscousGray: #54534D;
+$vidaLoca: #549019;
+$cioccolato: #55280C;
+$saratoga: #555B10;
+$finlandia: #556D56;
+$havelockBlue: #5590D9;
+$fountainBlue: #56B4BE;
+$springLeaves: #578363;
+$saddleBrown: #583401;
+$scarpaFlow: #585562;
+$cactus: #587156;
+$hippieBlue: #589AAF;
+$wineBerry: #591D35;
+$brownBramble: #592804;
+$congoBrown: #593737;
+$millbrook: #594433;
+$waikawaGray: #5A6E9C;
+$horizon: #5A87A0;
+$jambalaya: #5B3013;
+$bordeaux: #5C0120;
+$mulberryWood: #5C0536;
+$carnabyTan: #5C2E01;
+$comet: #5C5D75;
+$redwood: #5D1E0F;
+$donJuan: #5D4C51;
+$chicago: #5D5C58;
+$verdigris: #5D5E37;
+$dingley: #5D7747;
+$breakerBay: #5DA19F;
+$kabul: #5E483E;
+$hemlock: #5E5D3B;
+$irishCoffee: #5F3D26;
+$midGray: #5F5F6E;
+$shuttleGray: #5F6672;
+$aquaForest: #5FA777;
+$tradewind: #5FB3AC;
+$horsesNeck: #604913;
+$smoky: #605B73;
+$corduroy: #606E68;
+$danube: #6093D1;
+$espresso: #612718;
+$eggplant: #614051;
+$costaDelSol: #615D30;
+$gladeGreen: #61845F;
+$buccaneer: #622F30;
+$quincy: #623F2D;
+$butterflyBush: #624E9A;
+$westCoast: #625119;
+$finch: #626649;
+$patina: #639A8F;
+$fern: #63B76C;
+$blueViolet: #6456B7;
+$dolphin: #646077;
+$stormDust: #646463;
+$siam: #646A54;
+$nevada: #646E75;
+$cornflowerBlue: #6495ED;
+$viking: #64CCDB;
+$rosewood: #65000B;
+$cherrywood: #651A14;
+$purpleHeart: #652DC1;
+$fernFrond: #657220;
+$willowGrove: #65745D;
+$hoki: #65869F;
+$pompadour: #660045;
+$purple: #660099;
+$tyrianPurple: #66023C;
+$darkTan: #661010;
+$silverTree: #66B58F;
+$brightGreen: #66FF00;
+$screaminGreen: #66FF66;
+$blackRose: #67032D;
+$scampi: #675FA6;
+$ironsideGray: #676662;
+$viridianGreen: #678975;
+$christi: #67A712;
+$nutmegWoodFinish: #683600;
+$zambezi: #685558;
+$saltBox: #685E6E;
+$tawnyPort: #692545;
+$finn: #692D54;
+$scorpion: #695F62;
+$lynch: #697E9A;
+$spice: #6A442E;
+$himalaya: #6A5D1B;
+$soyaBean: #6A6051;
+$hairyHeath: #6B2A14;
+$royalPurple: #6B3FA0;
+$shingleFawn: #6B4E31;
+$dorado: #6B5755;
+$bermudaGray: #6B8BA2;
+$oliveDrab: #6B8E23;
+$eminence: #6C3082;
+$turquoiseBlue: #6CDAE7;
+$lonestar: #6D0101;
+$pineCone: #6D5E54;
+$doveGray: #6D6C6C;
+$juniper: #6D9292;
+$gothic: #6D92A1;
+$redOxide: #6E0902;
+$moccaccino: #6E1D14;
+$pickledBean: #6E4826;
+$dallas: #6E4B26;
+$kokoda: #6E6D57;
+$paleSky: #6E7783;
+$cafeRoyale: #6F440C;
+$flint: #6F6A61;
+$highland: #6F8E63;
+$limeade: #6F9D02;
+$downy: #6FD0C5;
+$persianPlum: #701C1C;
+$sepia: #704214;
+$antiqueBronze: #704A07;
+$ferra: #704F50;
+$coffee: #706555;
+$slateGray: #708090;
+$cedarWoodFinish: #711A00;
+$metallicCopper: #71291D;
+$affair: #714693;
+$studio: #714AB2;
+$tobaccoBrown: #715D47;
+$yellowMetal: #716338;
+$peat: #716B56;
+$olivetone: #716E10;
+$stormGray: #717486;
+$sirocco: #718080;
+$aquamarineBlue: #71D9E2;
+$venetianRed: #72010F;
+$oldCopper: #724A2F;
+$goBen: #726D4E;
+$raven: #727B89;
+$seance: #731E8F;
+$rawUmber: #734A12;
+$kimberly: #736C9F;
+$crocodile: #736D58;
+$crete: #737829;
+$xanadu: #738678;
+$spicyMustard: #74640D;
+$limedAsh: #747D63;
+$rollingStone: #747D83;
+$blueSmoke: #748881;
+$laurel: #749378;
+$mantis: #74C365;
+$russett: #755A57;
+$deluge: #7563A8;
+$cosmic: #76395D;
+$blueMarguerite: #7666C6;
+$lima: #76BD17;
+$skyBlue: #76D7EA;
+$darkBurgundy: #770F05;
+$crownofThorns: #771F1F;
+$walnut: #773F1A;
+$pablo: #776F61;
+$pacifika: #778120;
+$oxley: #779E86;
+$pastelGreen: #77DD77;
+$japaneseMaple: #780109;
+$mocha: #782D19;
+$peanut: #782F16;
+$camouflageGreen: #78866B;
+$wasabi: #788A25;
+$shipCove: #788BBA;
+$seaNymph: #78A39C;
+$romanCoffee: #795D4C;
+$oldLavender: #796878;
+$rum: #796989;
+$fedora: #796A78;
+$sandstone: #796D62;
+$spray: #79DEEC;
+$siren: #7A013A;
+$fuchsiaBlue: #7A58C1;
+$boulder: #7A7A7A;
+$wildBlueYonder: #7A89B8;
+$deYork: #7AC488;
+$redBeech: #7B3801;
+$cinnamon: #7B3F00;
+$yukonGold: #7B6608;
+$tapa: #7B7874;
+$waterloo: #7B7C94;
+$flaxSmoke: #7B8265;
+$amulet: #7B9F80;
+$asparagus: #7BA05B;
+$kenyanCopper: #7C1C05;
+$pesto: #7C7631;
+$topaz: #7C778A;
+$concord: #7C7B7A;
+$jumbo: #7C7B82;
+$trendyGreen: #7C881A;
+$gumbo: #7CA1A6;
+$acapulco: #7CB0A1;
+$neptune: #7CB7BB;
+$pueblo: #7D2C14;
+$bayLeaf: #7DA98D;
+$malibu: #7DC8F7;
+$bermuda: #7DD8C6;
+$copperCanyon: #7E3A15;
+$claret: #7F1734;
+$peruTan: #7F3A02;
+$falcon: #7F626D;
+$mobster: #7F7589;
+$moodyBlue: #7F76D3;
+$chartreuse: #7FFF00;
+$aquamarine: #7FFFD4;
+$maroon: #800000;
+$roseBudCherry: #800B47;
+$faluRed: #801818;
+$redRobin: #80341F;
+$vividViolet: #803790;
+$russet: #80461B;
+$friarGray: #807E79;
+$olive: #808000;
+$gray: #808080;
+$gulfStream: #80B3AE;
+$glacier: #80B3C4;
+$seagull: #80CCEA;
+$nutmeg: #81422C;
+$spicyPink: #816E71;
+$empress: #817377;
+$spanishGreen: #819885;
+$sandDune: #826F65;
+$gunsmoke: #828685;
+$battleshipGray: #828F72;
+$merlot: #831923;
+$shadow: #837050;
+$chelseaCucumber: #83AA5D;
+$monteCarlo: #83D0C6;
+$plum: #843179;
+$grannySmith: #84A0A0;
+$chetwodeBlue: #8581D9;
+$bandicoot: #858470;
+$baliHai: #859FAF;
+$halfBaked: #85C4CC;
+$redDevil: #860111;
+$lotus: #863C3C;
+$ironstone: #86483C;
+$bullShot: #864D1E;
+$rustyNail: #86560A;
+$bitter: #868974;
+$regentGray: #86949F;
+$disco: #871550;
+$americano: #87756E;
+$hurricane: #877C7B;
+$osloGray: #878D91;
+$sushi: #87AB39;
+$spicyMix: #885342;
+$kumera: #886221;
+$suvaGray: #888387;
+$avocado: #888D65;
+$camelot: #893456;
+$solidPink: #893843;
+$cannonPink: #894367;
+$makara: #897D6D;
+$burntUmber: #8A3324;
+$trueV: #8A73D6;
+$clayCreek: #8A8360;
+$monsoon: #8A8389;
+$stack: #8A8F8A;
+$jordyBlue: #8AB9F1;
+$electricViolet: #8B00FF;
+$monarch: #8B0723;
+$cornHarvest: #8B6B0B;
+$oliveHaze: #8B8470;
+$schooner: #8B847E;
+$naturalGray: #8B8680;
+$mantle: #8B9C90;
+$portage: #8B9FEE;
+$envy: #8BA690;
+$cascade: #8BA9A5;
+$riptide: #8BE6D8;
+$cardinalPink: #8C055E;
+$muleFawn: #8C472F;
+$pottersClay: #8C5738;
+$trendyPink: #8C6495;
+$paprika: #8D0226;
+$sanguineBrown: #8D3D38;
+$tosca: #8D3F3F;
+$cement: #8D7662;
+$graniteGreen: #8D8974;
+$manatee: #8D90A1;
+$poloBlue: #8DA8CC;
+$redBerry: #8E0000;
+$rope: #8E4D1E;
+$opium: #8E6F70;
+$domino: #8E775E;
+$mamba: #8E8190;
+$nepal: #8EABC1;
+$pohutukawa: #8F021C;
+$elSalva: #8F3E33;
+$korma: #8F4B0E;
+$squirrel: #8F8176;
+$vistaBlue: #8FD6B4;
+$burgundy: #900020;
+$oldBrick: #901E1E;
+$hemp: #907874;
+$almondFrost: #907B71;
+$sycamore: #908D39;
+$sangria: #92000A;
+$cumin: #924321;
+$beaver: #926F5B;
+$stonewall: #928573;
+$venus: #928590;
+$mediumPurple: #9370DB;
+$cornflower: #93CCEA;
+$algaeGreen: #93DFB8;
+$copperRust: #944747;
+$arrowtown: #948771;
+$scarlett: #950015;
+$strikemaster: #956387;
+$mountainMist: #959396;
+$carmine: #960018;
+$brown: #964B00;
+$leather: #967059;
+$purpleMountainsMajesty: #9678B6;
+$lavenderPurple: #967BB6;
+$pewter: #96A8A1;
+$summerGreen: #96BBAB;
+$auChico: #97605D;
+$wisteria: #9771B5;
+$atlantis: #97CD2D;
+$vinRouge: #983D61;
+$lilacBush: #9874D3;
+$bazaar: #98777B;
+$hacienda: #98811B;
+$paleOyster: #988D77;
+$mintGreen: #98FF98;
+$freshEggplant: #990066;
+$violetEggplant: #991199;
+$tamarillo: #991613;
+$totemPole: #991B07;
+$copperRose: #996666;
+$amethyst: #9966CC;
+$mountbattenPink: #997A8D;
+$blueBell: #9999CC;
+$prairieSand: #9A3820;
+$toast: #9A6E61;
+$gurkha: #9A9577;
+$olivine: #9AB973;
+$shadowGreen: #9AC2B8;
+$oregon: #9B4703;
+$lemonGrass: #9B9E8F;
+$stiletto: #9C3336;
+$hawaiianTan: #9D5616;
+$gullGray: #9DACB7;
+$pistachio: #9DC209;
+$grannySmithApple: #9DE093;
+$anakiwa: #9DE5FF;
+$chelseaGem: #9E5302;
+$sepiaSkin: #9E5B40;
+$sage: #9EA587;
+$citron: #9EA91F;
+$rockBlue: #9EB1CD;
+$morningGlory: #9EDEE0;
+$cognac: #9F381D;
+$reefGold: #9F821C;
+$starDust: #9F9F9C;
+$santasGray: #9FA0B1;
+$sinbad: #9FD7D3;
+$feijoa: #9FDD8C;
+$tabasco: #A02712;
+$butteredRum: #A1750D;
+$hitGray: #A1ADB5;
+$citrus: #A1C50A;
+$aquaIsland: #A1DAD7;
+$waterLeaf: #A1E9DE;
+$flirt: #A2006D;
+$rouge: #A23B6C;
+$capePalliser: #A26645;
+$grayChateau: #A2AAB3;
+$edward: #A2AEAB;
+$pharlap: #A3807B;
+$amethystSmoke: #A397B4;
+$blizzardBlue: #A3E3ED;
+$delta: #A4A49D;
+$wistful: #A4A6D3;
+$greenSmoke: #A4AF6E;
+$jazzberryJam: #A50B5E;
+$zorba: #A59B91;
+$bahia: #A5CB0C;
+$roofTerracotta: #A62F20;
+$paarl: #A65529;
+$barleyCorn: #A68B5B;
+$donkeyBrown: #A69279;
+$dawn: #A6A29A;
+$mexicanRed: #A72525;
+$luxorGold: #A7882C;
+$richGold: #A85307;
+$renoSand: #A86515;
+$coralTree: #A86B6B;
+$dustyGray: #A8989B;
+$dullLavender: #A899E6;
+$tallow: #A8A589;
+$bud: #A8AE9C;
+$locust: #A8AF8E;
+$norway: #A8BD9F;
+$chinook: #A8E3BD;
+$grayOlive: #A9A491;
+$aluminium: #A9ACB6;
+$cadetBlue: #A9B2C3;
+$schist: #A9B497;
+$towerGray: #A9BDBF;
+$perano: #A9BEF2;
+$opal: #A9C6C2;
+$nightShadz: #AA375A;
+$fire: #AA4203;
+$muesli: #AA8B5B;
+$sandal: #AA8D6F;
+$shadyLady: #AAA5A9;
+$logan: #AAA9CD;
+$spunPearl: #AAABB7;
+$regentStBlue: #AAD6E6;
+$magicMint: #AAF0D1;
+$lipstick: #AB0563;
+$royalHeath: #AB3472;
+$sandrift: #AB917A;
+$coldPurple: #ABA0D9;
+$bronco: #ABA196;
+$limedOak: #AC8A56;
+$eastSide: #AC91CE;
+$lemonGinger: #AC9E22;
+$napa: #ACA494;
+$hillary: #ACA586;
+$cloudy: #ACA59F;
+$silverChalice: #ACACAC;
+$swampGreen: #ACB78E;
+$springRain: #ACCBB1;
+$conifer: #ACDD4D;
+$celadon: #ACE1AF;
+$mandalay: #AD781B;
+$casper: #ADBED1;
+$mossGreen: #ADDFAD;
+$padua: #ADE6C4;
+$greenYellow: #ADFF2F;
+$hippiePink: #AE4560;
+$desert: #AE6020;
+$bouquet: #AE809E;
+$mediumCarmine: #AF4035;
+$appleBlossom: #AF4D43;
+$brownRust: #AF593E;
+$driftwood: #AF8751;
+$alpine: #AF8F2C;
+$lucky: #AF9F1C;
+$martini: #AFA09E;
+$bombay: #AFB1B8;
+$pigeonPost: #AFBDD9;
+$cadillac: #B04C6A;
+$matrix: #B05D54;
+$tapestry: #B05E81;
+$maiTai: #B06608;
+$delRio: #B09A95;
+$powderBlue: #B0E0E6;
+$inchWorm: #B0E313;
+$brightRed: #B10000;
+$vesuvius: #B14A0B;
+$pumpkinSkin: #B1610B;
+$santaFe: #B16D52;
+$teak: #B19461;
+$fringyFlower: #B1E2C1;
+$iceCold: #B1F4E7;
+$shiraz: #B20931;
+$bilobaFlower: #B2A1EA;
+$tallPoppy: #B32D29;
+$fieryOrange: #B35213;
+$hotToddy: #B38007;
+$taupeGray: #B3AF95;
+$laRioja: #B3C110;
+$wellRead: #B43332;
+$blush: #B44668;
+$jungleMist: #B4CFD3;
+$turkishRose: #B57281;
+$lavender: #B57EDC;
+$mongoose: #B5A27F;
+$oliveGreen: #B5B35C;
+$jetStream: #B5D2CE;
+$cruise: #B5ECDF;
+$hibiscus: #B6316C;
+$thatch: #B69D98;
+$heatheredGray: #B6B095;
+$eagle: #B6BAA4;
+$spindle: #B6D1EA;
+$gumLeaf: #B6D3BF;
+$rust: #B7410E;
+$muddyWaters: #B78E5C;
+$sahara: #B7A214;
+$husk: #B7A458;
+$nobel: #B7B1B1;
+$heather: #B7C3D0;
+$madang: #B7F0BE;
+$milanoRed: #B81104;
+$copper: #B87333;
+$gimblet: #B8B56A;
+$greenSpring: #B8C1B1;
+$celery: #B8C25D;
+$sail: #B8E0F9;
+$chestnut: #B94E48;
+$crail: #B95140;
+$marigold: #B98D28;
+$wildWillow: #B9C46A;
+$rainee: #B9C8AC;
+$guardsmanRed: #BA0101;
+$rockSpray: #BA450C;
+$bourbon: #BA6F1E;
+$pirateGold: #BA7F03;
+$nomad: #BAB1A2;
+$submarine: #BAC7C9;
+$charlotte: #BAEEF9;
+$mediumRedViolet: #BB3385;
+$brandyRose: #BB8983;
+$rioGrande: #BBD009;
+$surf: #BBD7C1;
+$powderAsh: #BCC9C2;
+$tuscany: #BD5E2E;
+$quicksand: #BD978E;
+$silk: #BDB1A8;
+$malta: #BDB2A1;
+$chatelle: #BDB3C7;
+$lavenderGray: #BDBBD7;
+$frenchGray: #BDBDC6;
+$clayAsh: #BDC8B3;
+$loblolly: #BDC9CE;
+$frenchPass: #BDEDFD;
+$londonHue: #BEA6C3;
+$pinkSwan: #BEB5B7;
+$fuego: #BEDE0D;
+$roseofSharon: #BF5500;
+$tide: #BFB8B0;
+$blueHaze: #BFBED8;
+$silverSand: #BFC1C2;
+$keyLimePie: #BFC921;
+$ziggurat: #BFDBE2;
+$lime: #BFFF00;
+$thunderbird: #C02B18;
+$mojo: #C04737;
+$oldRose: #C08081;
+$silver: #C0C0C0;
+$paleLeaf: #C0D3B9;
+$pixieGreen: #C0D8B6;
+$tiaMaria: #C1440E;
+$fuchsiaPink: #C154C1;
+$buddhaGold: #C1A004;
+$bisonHide: #C1B7A4;
+$tea: #C1BAB0;
+$graySuit: #C1BECD;
+$sprout: #C1D7B0;
+$sulu: #C1F07C;
+$indochine: #C26B03;
+$twine: #C2955D;
+$cottonSeed: #C2BDB6;
+$pumice: #C2CAC4;
+$jaggedIce: #C2E8E5;
+$maroonFlush: #C32148;
+$indianKhaki: #C3B091;
+$paleSlate: #C3BFC1;
+$grayNickel: #C3C3BD;
+$periwinkleGray: #C3CDE6;
+$tiara: #C3D1D1;
+$tropicalBlue: #C3DDF9;
+$cardinal: #C41E3A;
+$fuzzyWuzzyBrown: #C45655;
+$orangeRoughy: #C45719;
+$mistGray: #C4C4BC;
+$coriander: #C4D0B0;
+$mintTulip: #C4F4EB;
+$mulberry: #C54B8C;
+$nugget: #C59922;
+$tussock: #C5994B;
+$seaMist: #C5DBCA;
+$yellowGreen: #C5E17A;
+$brickRed: #C62D42;
+$contessa: #C6726B;
+$orientalPink: #C69191;
+$roti: #C6A84B;
+$ash: #C6C3B5;
+$kangaroo: #C6C8BD;
+$lasPalmas: #C6E610;
+$monza: #C7031E;
+$redViolet: #C71585;
+$coralReef: #C7BCA2;
+$melrose: #C7C1FF;
+$cloud: #C7C4BF;
+$ghost: #C7C9D5;
+$pineGlade: #C7CD90;
+$botticelli: #C7DDE5;
+$antiqueBrass: #C88A65;
+$lilac: #C8A2C8;
+$hokeyPokey: #C8A528;
+$lily: #C8AABF;
+$laser: #C8B568;
+$edgewater: #C8E3D7;
+$piper: #C96323;
+$pizza: #C99415;
+$lightWisteria: #C9A0DC;
+$rodeoDust: #C9B29B;
+$sundance: #C9B35B;
+$earlsGreen: #C9B93B;
+$silverRust: #C9C0BB;
+$conch: #C9D9D2;
+$reef: #C9FFA2;
+$aeroBlue: #C9FFE5;
+$flushMahogany: #CA3435;
+$turmeric: #CABB48;
+$parisWhite: #CADCD4;
+$bitterLemon: #CAE00D;
+$skeptic: #CAE6DA;
+$viola: #CB8FA9;
+$foggyGray: #CBCAB6;
+$greenMist: #CBD3B0;
+$nebula: #CBDBD6;
+$persianRed: #CC3333;
+$burntOrange: #CC5500;
+$ochre: #CC7722;
+$puce: #CC8899;
+$thistleGreen: #CCCAA8;
+$periwinkle: #CCCCFF;
+$electricLime: #CCFF00;
+$tenn: #CD5700;
+$chestnutRose: #CD5C5C;
+$brandyPunch: #CD8429;
+$onahau: #CDF4FF;
+$sorrellBrown: #CEB98F;
+$coldTurkey: #CEBABA;
+$yuma: #CEC291;
+$chino: #CEC7A7;
+$eunry: #CFA39D;
+$oldGold: #CFB53B;
+$tasman: #CFDCCF;
+$surfCrest: #CFE5D2;
+$hummingBird: #CFF9F3;
+$scandal: #CFFAF4;
+$redStage: #D05F04;
+$hopbush: #D06DA1;
+$meteor: #D07D12;
+$perfume: #D0BEF8;
+$prelude: #D0C0E5;
+$teaGreen: #D0F0C0;
+$geebung: #D18F1B;
+$vanilla: #D1BEA8;
+$softAmber: #D1C6B4;
+$celeste: #D1D2CA;
+$mischka: #D1D2DD;
+$pear: #D1E231;
+$hotCinnamon: #D2691E;
+$rawSienna: #D27D46;
+$careysPink: #D29EAA;
+$tan: #D2B48C;
+$deco: #D2DA97;
+$blueRomance: #D2F6DE;
+$gossip: #D2F8B0;
+$sisal: #D3CBBA;
+$swirl: #D3CDC5;
+$charm: #D47494;
+$clamShell: #D4B6AF;
+$straw: #D4BF8D;
+$akaroa: #D4C4A8;
+$birdFlower: #D4CD16;
+$iron: #D4D7D9;
+$geyser: #D4DFE2;
+$hawkesBlue: #D4E2FC;
+$grenadier: #D54600;
+$canCan: #D591A4;
+$whiskey: #D59A6F;
+$winterHazel: #D5D195;
+$grannyApple: #D5F6E3;
+$myPink: #D69188;
+$tacha: #D6C562;
+$moonRaker: #D6CEF6;
+$quillGray: #D6D6D1;
+$snowyMint: #D6FFDB;
+$newYorkPink: #D7837F;
+$pavlova: #D7C498;
+$fog: #D7D0FF;
+$valencia: #D84437;
+$japonica: #D87C63;
+$thistle: #D8BFD8;
+$maverick: #D8C2D5;
+$foam: #D8FCFA;
+$cabaret: #D94972;
+$burningSand: #D99376;
+$cameo: #D9B99B;
+$timberwolf: #D9D6CF;
+$tana: #D9DCC1;
+$linkWater: #D9E4F5;
+$mabel: #D9F7FF;
+$cerise: #DA3287;
+$flamePea: #DA5B38;
+$bamboo: #DA6304;
+$redDamask: #DA6A41;
+$orchid: #DA70D6;
+$copperfield: #DA8A67;
+$goldenGrass: #DAA520;
+$zanah: #DAECD6;
+$iceberg: #DAF4F0;
+$oysterBay: #DAFAFF;
+$cranberry: #DB5079;
+$petiteOrchid: #DB9690;
+$diSerria: #DB995E;
+$alto: #DBDBDB;
+$frostedMint: #DBFFF8;
+$crimson: #DC143C;
+$punch: #DC4333;
+$galliano: #DCB20C;
+$blossom: #DCB4BC;
+$wattle: #DCD747;
+$westar: #DCD9D2;
+$moonMist: #DCDDCC;
+$caper: #DCEDB4;
+$swansDown: #DCF0EA;
+$swissCoffee: #DDD6D5;
+$whiteIce: #DDF9F1;
+$ceriseRed: #DE3163;
+$roman: #DE6360;
+$tumbleweed: #DEA681;
+$goldTips: #DEBA13;
+$brandy: #DEC196;
+$wafer: #DECBC6;
+$sapling: #DED4A4;
+$barberry: #DED717;
+$berylGreen: #DEE5C0;
+$pattensBlue: #DEF5FF;
+$heliotrope: #DF73FF;
+$apache: #DFBE6F;
+$chenin: #DFCD6F;
+$lola: #DFCFDB;
+$willowBrook: #DFECDA;
+$chartreuseYellow: #DFFF00;
+$mauve: #E0B0FF;
+$anzac: #E0B646;
+$harvestGold: #E0B974;
+$calico: #E0C095;
+$babyBlue: #E0FFFF;
+$sunglo: #E16865;
+$equator: #E1BC64;
+$pinkFlare: #E1C0C8;
+$periglacialBlue: #E1E6D6;
+$kidnapper: #E1EAD4;
+$tara: #E1F6E8;
+$mandy: #E25465;
+$terracotta: #E2725B;
+$goldenBell: #E28913;
+$shocking: #E292C0;
+$dixie: #E29418;
+$lightOrchid: #E29CD2;
+$snuff: #E2D8ED;
+$mystic: #E2EBED;
+$appleGreen: #E2F3EC;
+$razzmatazz: #E30B5C;
+$alizarinCrimson: #E32636;
+$cinnabar: #E34234;
+$cavernPink: #E3BEBE;
+$peppermint: #E3F5E1;
+$mindaro: #E3F988;
+$deepBlush: #E47698;
+$gamboge: #E49B0F;
+$melanie: #E4C2D5;
+$twilight: #E4CFDE;
+$bone: #E4D1C0;
+$sunflower: #E4D422;
+$grainBrown: #E4D5B7;
+$zombie: #E4D69B;
+$frostee: #E4F6E7;
+$snowFlurry: #E4FFD1;
+$amaranth: #E52B50;
+$zest: #E5841B;
+$dustStorm: #E5CCC9;
+$starkWhite: #E5D7BD;
+$hampton: #E5D8AF;
+$bonJour: #E5E0E1;
+$mercury: #E5E5E5;
+$polar: #E5F9F6;
+$trinidad: #E64E03;
+$goldSand: #E6BE8A;
+$cashmere: #E6BEA5;
+$doubleSpanishWhite: #E6D7B9;
+$satinLinen: #E6E4D4;
+$harp: #E6F2EA;
+$offGreen: #E6F8F3;
+$hintofGreen: #E6FFE9;
+$tranquil: #E6FFFF;
+$mangoTango: #E77200;
+$christine: #E7730A;
+$tonysPink: #E79F8C;
+$kobi: #E79FC4;
+$roseFog: #E7BCB4;
+$corn: #E7BF05;
+$putty: #E7CD8C;
+$grayNurse: #E7ECE6;
+$lilyWhite: #E7F8FF;
+$bubbles: #E7FEFF;
+$fireBush: #E89928;
+$shilo: #E8B9B3;
+$pearlBush: #E8E0D5;
+$greenWhite: #E8EBE0;
+$chromeWhite: #E8F1D4;
+$gin: #E8F2EB;
+$aquaSqueeze: #E8F5F2;
+$clementine: #E96E00;
+$burntSienna: #E97451;
+$tahitiGold: #E97C07;
+$oysterPink: #E9CECD;
+$confetti: #E9D75A;
+$ebb: #E9E3E3;
+$ottoman: #E9F8ED;
+$clearDay: #E9FFFD;
+$carissma: #EA88A8;
+$porsche: #EAAE69;
+$tulipTree: #EAB33B;
+$robRoy: #EAC674;
+$raffia: #EADAB8;
+$whiteRock: #EAE8D4;
+$panache: #EAF6EE;
+$solitude: #EAF6FF;
+$aquaSpring: #EAF9F5;
+$dew: #EAFFFE;
+$apricot: #EB9373;
+$zinnwaldite: #EBC2AF;
+$fuelYellow: #ECA927;
+$ronchi: #ECC54E;
+$frenchLilac: #ECC7EE;
+$justRight: #ECCDB9;
+$wildRice: #ECE090;
+$fallGreen: #ECEBBD;
+$athsSpecial: #ECEBCE;
+$starship: #ECF245;
+$redRibbon: #ED0A3F;
+$tango: #ED7A1C;
+$carrotOrange: #ED9121;
+$seaPink: #ED989E;
+$tacao: #EDB381;
+$desertSand: #EDC9AF;
+$pancho: #EDCDAB;
+$chamois: #EDDCB1;
+$primrose: #EDEA99;
+$frost: #EDF5DD;
+$aquaHaze: #EDF5F5;
+$zumthor: #EDF6FF;
+$narvik: #EDF9F1;
+$honeysuckle: #EDFC84;
+$lavenderMagenta: #EE82EE;
+$beautyBush: #EEC1BE;
+$chalky: #EED794;
+$almond: #EED9C4;
+$flax: #EEDC82;
+$bizarre: #EEDEDA;
+$doubleColonialWhite: #EEE3AD;
+$cararra: #EEEEE8;
+$manz: #EEEF78;
+$tahunaSands: #EEF0C8;
+$athensGray: #EEF0F3;
+$tusk: #EEF3C3;
+$loafer: #EEF4DE;
+$catskillWhite: #EEF6F7;
+$twilightBlue: #EEFDFF;
+$jonquil: #EEFF9A;
+$riceFlower: #EEFFE2;
+$jaffa: #EF863F;
+$gallery: #EFEFEF;
+$porcelain: #EFF2F3;
+$mauvelous: #F091A9;
+$goldenDream: #F0D52D;
+$goldenSand: #F0DB7D;
+$buff: #F0DC82;
+$prim: #F0E2EC;
+$khaki: #F0E68C;
+$selago: #F0EEFD;
+$titanWhite: #F0EEFF;
+$aliceBlue: #F0F8FF;
+$feta: #F0FCEA;
+$goldDrop: #F18200;
+$wewak: #F19BAB;
+$saharaSand: #F1E788;
+$parchment: #F1E9D2;
+$blueChalk: #F1E9FF;
+$mintJulep: #F1EEC1;
+$seashell: #F1F1F1;
+$saltpan: #F1F7F2;
+$tidal: #F1FFAD;
+$chiffon: #F1FFC8;
+$flamingo: #F2552A;
+$tangerine: #F28500;
+$mandysPink: #F2C3B2;
+$concrete: #F2F2F2;
+$blackSqueeze: #F2FAFA;
+$pomegranate: #F34723;
+$buttercup: #F3AD16;
+$newOrleans: #F3D69D;
+$vanillaIce: #F3D9DF;
+$sidecar: #F3E7BB;
+$dawnPink: #F3E9E5;
+$wheatfield: #F3EDCF;
+$canary: #F3FB62;
+$orinoco: #F3FBD4;
+$carla: #F3FFD8;
+$hollywoodCerise: #F400A1;
+$sandybrown: #F4A460;
+$saffron: #F4C430;
+$ripeLemon: #F4D81C;
+$janna: #F4EBD3;
+$pampas: #F4F2EE;
+$wildSand: #F4F4F4;
+$zircon: #F4F8FF;
+$froly: #F57584;
+$creamCan: #F5C85C;
+$manhattan: #F5C999;
+$maize: #F5D5A0;
+$wheat: #F5DEB3;
+$sandwisp: #F5E7A2;
+$potPourri: #F5E7E2;
+$albescentWhite: #F5E9D3;
+$softPeach: #F5EDEF;
+$ecruWhite: #F5F3E5;
+$beige: #F5F5DC;
+$goldenFizz: #F5FB3D;
+$australianMint: #F5FFBE;
+$frenchRose: #F64A8A;
+$brilliantRose: #F653A6;
+$illusion: #F6A4C9;
+$merino: #F6F0E6;
+$blackHaze: #F6F7F7;
+$springSun: #F6FFDC;
+$violetRed: #F7468A;
+$chileanFire: #F77703;
+$persianPink: #F77FBE;
+$rajah: #F7B668;
+$azalea: #F7C8DA;
+$wePeep: #F7DBE6;
+$quarterSpanishWhite: #F7F2E1;
+$whisper: #F7F5FA;
+$snowDrift: #F7FAF7;
+$casablanca: #F8B853;
+$chantilly: #F8C3DF;
+$cherub: #F8D9E9;
+$marzipan: #F8DB9D;
+$energyYellow: #F8DD5C;
+$givry: #F8E4BF;
+$whiteLinen: #F8F0E8;
+$magnolia: #F8F4FF;
+$springWood: #F8F6F1;
+$coconutCream: #F8F7DC;
+$whiteLilac: #F8F7FC;
+$desertStorm: #F8F8F7;
+$texas: #F8F99C;
+$cornField: #F8FACD;
+$mimosa: #F8FDD3;
+$carnation: #F95A61;
+$saffronMango: #F9BF58;
+$carouselPink: #F9E0ED;
+$dairyCream: #F9E4BC;
+$portica: #F9E663;
+$amour: #F9EAF3;
+$rumSwizzle: #F9F8E4;
+$dolly: #F9FF8B;
+$sugarCane: #F9FFF6;
+$ecstasy: #FA7814;
+$tanHide: #FA9D5A;
+$corvette: #FAD3A2;
+$peachYellow: #FADFAD;
+$turbo: #FAE600;
+$astra: #FAEAB9;
+$champagne: #FAECCC;
+$linen: #FAF0E6;
+$fantasy: #FAF3F0;
+$citrineWhite: #FAF7D6;
+$alabaster: #FAFAFA;
+$hintofYellow: #FAFDE4;
+$milan: #FAFFA4;
+$brinkPink: #FB607F;
+$geraldine: #FB8989;
+$lavenderRose: #FBA0E3;
+$seaBuckthorn: #FBA129;
+$sun: #FBAC13;
+$lavenderPink: #FBAED2;
+$roseBud: #FBB2A3;
+$cupid: #FBBEDA;
+$classicRose: #FBCCE7;
+$apricotPeach: #FBCEB1;
+$bananaMania: #FBE7B2;
+$marigoldYellow: #FBE870;
+$festival: #FBE96C;
+$sweetCorn: #FBEA8C;
+$candyCorn: #FBEC5D;
+$hintofRed: #FBF9F9;
+$shalimar: #FBFFBA;
+$shockingPink: #FC0FC0;
+$tickleMePink: #FC80A5;
+$treePoppy: #FC9C1D;
+$lightningYellow: #FCC01E;
+$goldenrod: #FCD667;
+$candlelight: #FCD917;
+$cherokee: #FCDA98;
+$doublePearlLusta: #FCF4D0;
+$pearlLusta: #FCF4DC;
+$vistaWhite: #FCF8F7;
+$bianca: #FCFBF3;
+$moonGlow: #FCFEDA;
+$chinaIvory: #FCFFE7;
+$ceramic: #FCFFF9;
+$torchRed: #FD0E35;
+$wildWatermelon: #FD5B78;
+$crusta: #FD7B33;
+$sorbus: #FD7C07;
+$sweetPink: #FD9FA2;
+$lightApricot: #FDD5B1;
+$pigPink: #FDD7E4;
+$cinderella: #FDE1DC;
+$goldenGlow: #FDE295;
+$lemon: #FDE910;
+$oldLace: #FDF5E6;
+$halfColonialWhite: #FDF6D3;
+$drover: #FDF7AD;
+$palePrim: #FDFEB8;
+$cumulus: #FDFFD5;
+$persianRose: #FE28A2;
+$sunsetOrange: #FE4C40;
+$bittersweet: #FE6F5E;
+$california: #FE9D04;
+$yellowSea: #FEA904;
+$melon: #FEBAAD;
+$brightSun: #FED33C;
+$dandelion: #FED85D;
+$salomie: #FEDB8D;
+$capeHoney: #FEE5AC;
+$remy: #FEEBF3;
+$oasis: #FEEFCE;
+$bridesmaid: #FEF0EC;
+$beeswax: #FEF2C7;
+$bleachWhite: #FEF3D8;
+$pipi: #FEF4CC;
+$halfSpanishWhite: #FEF4DB;
+$wispPink: #FEF4F8;
+$provincialPink: #FEF5F1;
+$halfDutchWhite: #FEF7DE;
+$solitaire: #FEF8E2;
+$whitePointer: #FEF8FF;
+$offYellow: #FEF9E3;
+$orangeWhite: #FEFCED;
+$red: #FF0000;
+$rose: #FF007F;
+$purplePizzazz: #FF00CC;
+$magentaFuchsia: #FF00FF;
+$scarlet: #FF2400;
+$wildStrawberry: #FF3399;
+$razzleDazzleRose: #FF33CC;
+$radicalRed: #FF355E;
+$redOrange: #FF3F34;
+$coralRed: #FF4040;
+$vermilion: #FF4D00;
+$internationalOrange: #FF4F00;
+$outrageousOrange: #FF6037;
+$blazeOrange: #FF6600;
+$pinkFlamingo: #FF66FF;
+$orange: #FF681F;
+$hotPink: #FF69B4;
+$persimmon: #FF6B53;
+$blushPink: #FF6FFF;
+$burningOrange: #FF7034;
+$pumpkin: #FF7518;
+$flamenco: #FF7D07;
+$flushOrange: #FF7F00;
+$coral: #FF7F50;
+$salmon: #FF8C69;
+$pizazz: #FF9000;
+$westSide: #FF910F;
+$pinkSalmon: #FF91A4;
+$neonCarrot: #FF9933;
+$atomicTangerine: #FF9966;
+$vividTangerine: #FF9980;
+$sunshade: #FF9E2C;
+$orangePeel: #FFA000;
+$monaLisa: #FFA194;
+$webOrange: #FFA500;
+$carnationPink: #FFA6C9;
+$hitPink: #FFAB81;
+$yellowOrange: #FFAE42;
+$cornflowerLilac: #FFB0AC;
+$sundown: #FFB1B3;
+$mySin: #FFB31F;
+$texasRose: #FFB555;
+$cottonCandy: #FFB7D5;
+$macaroniandCheese: #FFB97B;
+$selectiveYellow: #FFBA00;
+$koromiko: #FFBD5F;
+$amber: #FFBF00;
+$waxFlower: #FFC0A8;
+$pink: #FFC0CB;
+$yourPink: #FFC3C0;
+$supernova: #FFC901;
+$flesh: #FFCBA4;
+$sunglow: #FFCC33;
+$goldenTainoi: #FFCC5C;
+$peachOrange: #FFCC99;
+$chardonnay: #FFCD8C;
+$pastelPink: #FFD1DC;
+$romantic: #FFD2B7;
+$grandis: #FFD38C;
+$gold: #FFD700;
+$schoolbusYellow: #FFD800;
+$cosmos: #FFD8D9;
+$mustard: #FFDB58;
+$peachSchnapps: #FFDCD6;
+$caramel: #FFDDAF;
+$tuftBush: #FFDDCD;
+$watusi: #FFDDCF;
+$pinkLace: #FFDDF4;
+$navajoWhite: #FFDEAD;
+$frangipani: #FFDEB3;
+$pippin: #FFE1DF;
+$paleRose: #FFE1F2;
+$negroni: #FFE2C5;
+$creamBrulee: #FFE5A0;
+$peach: #FFE5B4;
+$tequila: #FFE6C7;
+$kournikova: #FFE772;
+$sandyBeach: #FFEAC8;
+$karry: #FFEAD4;
+$broom: #FFEC13;
+$colonialWhite: #FFEDBC;
+$derby: #FFEED8;
+$visVis: #FFEFA1;
+$eggWhite: #FFEFC1;
+$papayaWhip: #FFEFD5;
+$fairPink: #FFEFEC;
+$peachCream: #FFF0DB;
+$lavenderblush: #FFF0F5;
+$gorse: #FFF14F;
+$buttermilk: #FFF1B5;
+$pinkLady: #FFF1D8;
+$forgetMeNot: #FFF1EE;
+$tutu: #FFF1F9;
+$picasso: #FFF39D;
+$chardon: #FFF3F1;
+$parisDaisy: #FFF46E;
+$barleyWhite: #FFF4CE;
+$eggSour: #FFF4DD;
+$sazerac: #FFF4E0;
+$serenade: #FFF4E8;
+$chablis: #FFF4F3;
+$seashellPeach: #FFF5EE;
+$sauvignon: #FFF5F3;
+$milkPunch: #FFF6D4;
+$varden: #FFF6DF;
+$roseWhite: #FFF6F5;
+$bajaWhite: #FFF8D1;
+$ginFizz: #FFF9E2;
+$earlyDawn: #FFF9E6;
+$lemonChiffon: #FFFACD;
+$bridalHeath: #FFFAF4;
+$scotchMist: #FFFBDC;
+$soapstone: #FFFBF9;
+$witchHaze: #FFFC99;
+$butteryWhite: #FFFCEA;
+$islandSpice: #FFFCEE;
+$cream: #FFFDD0;
+$chileanHeath: #FFFDE6;
+$travertine: #FFFDE8;
+$orchidWhite: #FFFDF3;
+$quarterPearlLusta: #FFFDF4;
+$halfandHalf: #FFFEE1;
+$apricotWhite: #FFFEEC;
+$riceCake: #FFFEF0;
+$blackWhite: #FFFEF6;
+$romance: #FFFEFD;
+$yellow: #FFFF00;
+$laserLemon: #FFFF66;
+$paleCanary: #FFFF99;
+$portafino: #FFFFB4;
+$ivory: #FFFFF0;
+$white: #FFFFFF;
+
+$red: (
+	"base": #F44336,
+	"lighten-5": #FFEBEE,
+	"lighten-4": #FFCDD2,
+	"lighten-3": #EF9A9A,
+	"lighten-2": #E57373,
+	"lighten-1": #EF5350,
+	"darken-1": #E53935,
+	"darken-2": #D32F2F,
+	"darken-3": #C62828,
+	"darken-4": #B71C1C,
+	"accent-1": #FF8A80,
+	"accent-2": #FF5252,
+	"accent-3": #FF1744,
+	"accent-4": #D50000
+);
+
+$pink: (
+	"base": #e91e63,
+	"lighten-5": #fce4ec,
+	"lighten-4": #f8bbd0,
+	"lighten-3": #f48fb1,
+	"lighten-2": #f06292,
+	"lighten-1": #ec407a,
+	"darken-1": #d81b60,
+	"darken-2": #c2185b,
+	"darken-3": #ad1457,
+	"darken-4": #880e4f,
+	"accent-1": #ff80ab,
+	"accent-2": #ff4081,
+	"accent-3": #f50057,
+	"accent-4": #c51162
+);
+
+$purple: (
+	"base": #9c27b0,
+	"lighten-5": #f3e5f5,
+	"lighten-4": #e1bee7,
+	"lighten-3": #ce93d8,
+	"lighten-2": #ba68c8,
+	"lighten-1": #ab47bc,
+	"darken-1": #8e24aa,
+	"darken-2": #7b1fa2,
+	"darken-3": #6a1b9a,
+	"darken-4": #4a148c,
+	"accent-1": #ea80fc,
+	"accent-2": #e040fb,
+	"accent-3": #d500f9,
+	"accent-4": #aa00ff
+);
+
+$deep-purple: (
+	"base": #673ab7,
+	"lighten-5": #ede7f6,
+	"lighten-4": #d1c4e9,
+	"lighten-3": #b39ddb,
+	"lighten-2": #9575cd,
+	"lighten-1": #7e57c2,
+	"darken-1": #5e35b1,
+	"darken-2": #512da8,
+	"darken-3": #4527a0,
+	"darken-4": #311b92,
+	"accent-1": #b388ff,
+	"accent-2": #7c4dff,
+	"accent-3": #651fff,
+	"accent-4": #6200ea
+);
+
+$indigo: (
+	"base": #3f51b5,
+	"lighten-5": #e8eaf6,
+	"lighten-4": #c5cae9,
+	"lighten-3": #9fa8da,
+	"lighten-2": #7986cb,
+	"lighten-1": #5c6bc0,
+	"darken-1": #3949ab,
+	"darken-2": #303f9f,
+	"darken-3": #283593,
+	"darken-4": #1a237e,
+	"accent-1": #8c9eff,
+	"accent-2": #536dfe,
+	"accent-3": #3d5afe,
+	"accent-4": #304ffe
+);
+
+$blue: (
+	"base": #2196F3,
+	"lighten-5": #E3F2FD,
+	"lighten-4": #BBDEFB,
+	"lighten-3": #90CAF9,
+	"lighten-2": #64B5F6,
+	"lighten-1": #42A5F5,
+	"darken-1": #1E88E5,
+	"darken-2": #1976D2,
+	"darken-3": #1565C0,
+	"darken-4": #0D47A1,
+	"accent-1": #82B1FF,
+	"accent-2": #448AFF,
+	"accent-3": #2979FF,
+	"accent-4": #2962FF
+);
+
+$light-blue: (
+	"base": #03a9f4,
+	"lighten-5": #e1f5fe,
+	"lighten-4": #b3e5fc,
+	"lighten-3": #81d4fa,
+	"lighten-2": #4fc3f7,
+	"lighten-1": #29b6f6,
+	"darken-1": #039be5,
+	"darken-2": #0288d1,
+	"darken-3": #0277bd,
+	"darken-4": #01579b,
+	"accent-1": #80d8ff,
+	"accent-2": #40c4ff,
+	"accent-3": #00b0ff,
+	"accent-4": #0091ea
+);
+
+$cyan: (
+	"base": #00bcd4,
+	"lighten-5": #e0f7fa,
+	"lighten-4": #b2ebf2,
+	"lighten-3": #80deea,
+	"lighten-2": #4dd0e1,
+	"lighten-1": #26c6da,
+	"darken-1": #00acc1,
+	"darken-2": #0097a7,
+	"darken-3": #00838f,
+	"darken-4": #006064,
+	"accent-1": #84ffff,
+	"accent-2": #18ffff,
+	"accent-3": #00e5ff,
+	"accent-4": #00b8d4
+);
+
+$teal: (
+	"base": #009688,
+	"lighten-5": #e0f2f1,
+	"lighten-4": #b2dfdb,
+	"lighten-3": #80cbc4,
+	"lighten-2": #4db6ac,
+	"lighten-1": #26a69a,
+	"darken-1": #00897b,
+	"darken-2": #00796b,
+	"darken-3": #00695c,
+	"darken-4": #004d40,
+	"accent-1": #a7ffeb,
+	"accent-2": #64ffda,
+	"accent-3": #1de9b6,
+	"accent-4": #00bfa5
+);
+
+$green: (
+	"base": #4CAF50,
+	"lighten-5": #E8F5E9,
+	"lighten-4": #C8E6C9,
+	"lighten-3": #A5D6A7,
+	"lighten-2": #81C784,
+	"lighten-1": #66BB6A,
+	"darken-1": #43A047,
+	"darken-2": #388E3C,
+	"darken-3": #2E7D32,
+	"darken-4": #1B5E20,
+	"accent-1": #B9F6CA,
+	"accent-2": #69F0AE,
+	"accent-3": #00E676,
+	"accent-4": #00C853
+);
+
+$light-green: (
+	"base": #8bc34a,
+	"lighten-5": #f1f8e9,
+	"lighten-4": #dcedc8,
+	"lighten-3": #c5e1a5,
+	"lighten-2": #aed581,
+	"lighten-1": #9ccc65,
+	"darken-1": #7cb342,
+	"darken-2": #689f38,
+	"darken-3": #558b2f,
+	"darken-4": #33691e,
+	"accent-1": #ccff90,
+	"accent-2": #b2ff59,
+	"accent-3": #76ff03,
+	"accent-4": #64dd17
+);
+
+$lime: (
+	"base": #cddc39,
+	"lighten-5": #f9fbe7,
+	"lighten-4": #f0f4c3,
+	"lighten-3": #e6ee9c,
+	"lighten-2": #dce775,
+	"lighten-1": #d4e157,
+	"darken-1": #c0ca33,
+	"darken-2": #afb42b,
+	"darken-3": #9e9d24,
+	"darken-4": #827717,
+	"accent-1": #f4ff81,
+	"accent-2": #eeff41,
+	"accent-3": #c6ff00,
+	"accent-4": #aeea00
+);
+
+$yellow: (
+	"base": #ffeb3b,
+	"lighten-5": #fffde7,
+	"lighten-4": #fff9c4,
+	"lighten-3": #fff59d,
+	"lighten-2": #fff176,
+	"lighten-1": #ffee58,
+	"darken-1": #fdd835,
+	"darken-2": #fbc02d,
+	"darken-3": #f9a825,
+	"darken-4": #f57f17,
+	"accent-1": #ffff8d,
+	"accent-2": #ffff00,
+	"accent-3": #ffea00,
+	"accent-4": #ffd600
+);
+
+$amber: (
+	"base": #ffc107,
+	"lighten-5": #fff8e1,
+	"lighten-4": #ffecb3,
+	"lighten-3": #ffe082,
+	"lighten-2": #ffd54f,
+	"lighten-1": #ffca28,
+	"darken-1": #ffb300,
+	"darken-2": #ffa000,
+	"darken-3": #ff8f00,
+	"darken-4": #ff6f00,
+	"accent-1": #ffe57f,
+	"accent-2": #ffd740,
+	"accent-3": #ffc400,
+	"accent-4": #ffab00
+);
+
+$orange: (
+	"base": #ff9800,
+	"lighten-5": #fff3e0,
+	"lighten-4": #ffe0b2,
+	"lighten-3": #ffcc80,
+	"lighten-2": #ffb74d,
+	"lighten-1": #ffa726,
+	"darken-1": #fb8c00,
+	"darken-2": #f57c00,
+	"darken-3": #ef6c00,
+	"darken-4": #e65100,
+	"accent-1": #ffd180,
+	"accent-2": #ffab40,
+	"accent-3": #ff9100,
+	"accent-4": #ff6d00
+);
+
+$deep-orange: (
+	"base": #ff5722,
+	"lighten-5": #fbe9e7,
+	"lighten-4": #ffccbc,
+	"lighten-3": #ffab91,
+	"lighten-2": #ff8a65,
+	"lighten-1": #ff7043,
+	"darken-1": #f4511e,
+	"darken-2": #e64a19,
+	"darken-3": #d84315,
+	"darken-4": #bf360c,
+	"accent-1": #ff9e80,
+	"accent-2": #ff6e40,
+	"accent-3": #ff3d00,
+	"accent-4": #dd2c00
+);
+
+$brown: (
+	"base": #795548,
+	"lighten-5": #efebe9,
+	"lighten-4": #d7ccc8,
+	"lighten-3": #bcaaa4,
+	"lighten-2": #a1887f,
+	"lighten-1": #8d6e63,
+	"darken-1": #6d4c41,
+	"darken-2": #5d4037,
+	"darken-3": #4e342e,
+	"darken-4": #3e2723
+);
+
+$blue-grey: (
+	"base": #607d8b,
+	"lighten-5": #eceff1,
+	"lighten-4": #cfd8dc,
+	"lighten-3": #b0bec5,
+	"lighten-2": #90a4ae,
+	"lighten-1": #78909c,
+	"darken-1": #546e7a,
+	"darken-2": #455a64,
+	"darken-3": #37474f,
+	"darken-4": #263238
+);
+
+$grey: (
+	"base": #9e9e9e,
+	"lighten-5": #fafafa,
+	"lighten-4": #f5f5f5,
+	"lighten-3": #eeeeee,
+	"lighten-2": #e0e0e0,
+	"lighten-1": #bdbdbd,
+	"darken-1": #757575,
+	"darken-2": #616161,
+	"darken-3": #424242,
+	"darken-4": #212121
+);
+
+$shades: (
+	"black": #000000,
+	"white": #FFFFFF,
+	"transparent": transparent
+);
+
+$colors: (
+	"red": $red,
+	"pink": $pink,
+	"purple": $purple,
+	"deep-purple": $deep-purple,
+	"indigo": $indigo,
+	"blue": $blue,
+	"light-blue": $light-blue,
+	"cyan": $cyan,
+	"teal": $teal,
+	"green": $green,
+	"light-green": $light-green,
+	"lime": $lime,
+	"yellow": $yellow,
+	"amber": $amber,
+	"orange": $orange,
+	"deep-orange": $deep-orange,
+	"brown": $brown,
+	"blue-grey": $blue-grey,
+	"grey": $grey,
+	"shades": $shades
+);

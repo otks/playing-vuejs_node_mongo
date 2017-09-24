@@ -1,0 +1,36 @@
+$fontOptions: arial, sans-serif;
+
+$colors: (
+	secondary: (
+		base: #ff9100,
+		light: #ffc246,
+		dark: #c56200,
+		text: #000000
+	),
+	primary: (
+		base: #212121,
+		light: #484848,
+		dark: #000000,
+		text: #ffffff
+	),
+	helpers: (
+		success: #3BB273,
+		successText: #ffffff,
+		warning: #7768AE,
+		warningText: #ffffff,
+		error: #E15554,
+		errorText: #000000,
+		info: #4D9DE0,
+		infoText: #ffffff
+	),
+);
+
+$mainFont: (
+	regular: ralewayRegular,
+	italic: ralewayItalic,
+	bold: ralewayBold
+);
+
+$primaryColors: map_get($colors, primary);
+$secondaryColors: map_get($colors, secondary);
+$helpersColors: map_get($colors, helpers);

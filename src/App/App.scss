@@ -1,0 +1,86 @@
+@import "~@/static/_scss/_colors.scss";
+@import "~@/static/_scss/_globalVariables.scss";
+@import "~@/static/_scss/_functions.scss";
+
+@include font-face('Material Icons', 'MaterialIcons-Regular', 'MaterialIcons');
+@include font-face('ralewayBold', 'raleway-bold-webfont', 'Raleway');
+@include font-face('ralewayItalic', 'raleway-italic-webfont', 'Raleway');
+@include font-face('ralewayRegular', 'raleway-regular-webfont', 'Raleway');
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px; /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: map_get($mainFont, bold), $fontOptions !important;
+}
+
+p, a, span, input, textarea, label {
+	font-family: map_get($mainFont, regular), $fontOptions !important;
+}
+
+strong {
+	font-family: map_get($mainFont, bold), $fontOptions !important;
+}
+
+body {
+	background-color: map_get($primaryColors, base) !important;
+}
+
+input {
+	font-size: 18px;
+}
+
+.md-input-container.md-input-focused label,
+.md-input-container.md-has-value label {
+	font-size: 14px;
+}
+
+::selection {
+	background-color: map_get($secondaryColors, base) !important;
+	color: map_get($primaryColors, base) !important;
+}
+
+.md-theme-default.md-input-container.md-input-invalid label,
+.md-theme-default.md-input-container.md-input-invalid input,
+.md-theme-default.md-input-container.md-input-invalid textarea,
+.md-theme-default.md-input-container.md-input-invalid .md-error,
+.md-theme-default.md-input-container.md-input-invalid .md-count,
+.md-theme-default.md-input-container.md-input-invalid .md-icon:not(.md-icon-delete),
+.md-theme-default.md-input-container.md-input-invalid:after {
+	color: map_get($helpersColors, error);
+}
+
+.md-theme-default.md-input-container.md-input-focused:after {
+	background-color: map_get($primaryColors, light) !important;
+}
+
+.md-theme-default.md-input-container.md-input-focused label,
+.md-theme-default.md-input-container.md-input-focused .md-icon:not(.md-icon-delete) {
+	color: map_get($primaryColors, dark);
+}
+
+.md-card {
+	background-color: #eee !important;
+}

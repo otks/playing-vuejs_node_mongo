@@ -1,0 +1,20 @@
+@import "~@/static/_scss/_colors.scss";
+@import "~@/static/_scss/_functions.scss";
+@import "~@/static/_scss/_globalVariables.scss";
+
+.Login {
+	align-items:center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+.Login-container {
+	max-width: 500px;
+	width: 100%;
+}
+
+.Login-button--send {
+	background: map_get($helpersColors, success) !important;
+	color: map_get($helpersColors, successText) !important;
+}
